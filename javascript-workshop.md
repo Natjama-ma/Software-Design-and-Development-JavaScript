@@ -111,6 +111,15 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 </body>
 </html>
 ```
+```js
+document.getElementById('btn3').onclick = function() {
+    alert("เวลาปัจจุบัน: " + new Date().toLocaleTimeString());
+};
+{
+    let text = document.getElementById("userInput").value;
+    document.getElementById("output").innerText = "ข้อความที่ป้อน: " + text;
+};
+```
 [รูปผลการทดลองที่ 1]
 
 ![image](https://github.com/user-attachments/assets/e9838659-1aa9-434b-b39d-ca45057dcc8b)
